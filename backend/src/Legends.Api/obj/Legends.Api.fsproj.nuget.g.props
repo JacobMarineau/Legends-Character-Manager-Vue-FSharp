@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/jacobmarineau/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/jacobmarineau/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.11.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/Users/jacobmarineau/.nuget/packages/" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore/9.0.0/buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore/9.0.0/buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">/Users/jacobmarineau/.nuget/packages/fsharp.core/8.0.401</PkgFSharp_Core>
+    <PkgSaturn Condition=" '$(PkgSaturn)' == '' ">/Users/jacobmarineau/.nuget/packages/saturn/0.17.0</PkgSaturn>
+    <PkgMicrosoft_EntityFrameworkCore Condition=" '$(PkgMicrosoft_EntityFrameworkCore)' == '' ">/Users/jacobmarineau/.nuget/packages/microsoft.entityframeworkcore/9.0.0</PkgMicrosoft_EntityFrameworkCore>
+    <PkgNpgsql_EntityFrameworkCore_PostgreSQL Condition=" '$(PkgNpgsql_EntityFrameworkCore_PostgreSQL)' == '' ">/Users/jacobmarineau/.nuget/packages/npgsql.entityframeworkcore.postgresql/9.0.2</PkgNpgsql_EntityFrameworkCore_PostgreSQL>
+    <PkgMicrosoft_Extensions_Configuration Condition=" '$(PkgMicrosoft_Extensions_Configuration)' == '' ">/Users/jacobmarineau/.nuget/packages/microsoft.extensions.configuration/9.0.0</PkgMicrosoft_Extensions_Configuration>
+  </PropertyGroup>
+</Project>
